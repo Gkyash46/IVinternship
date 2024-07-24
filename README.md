@@ -6,6 +6,7 @@ Random Forest is an ensemble learning method that constructs a multitude of deci
 Ensemble Learning: Combines multiple models to improve performance.
 Bagging: Random Forest builds multiple decision trees and merges them together to get a more accurate and stable prediction.
 Random Feature Selection: Each tree in the Random Forest is trained on a subset of features, chosen randomly.
+
 2. Advantages and Disadvantages
 Advantages:
 
@@ -18,6 +19,7 @@ Disadvantages:
 Computationally intensive.
 More difficult to interpret compared to single decision trees.
 May not perform well on very sparse datasets.
+
 3. Feature Selection using Random Forests
 Random Forests can rank the importance of features by measuring how effective they are at reducing impurity (e.g., Gini impurity) when used in the trees of the forest. This allows for feature selection by choosing the most important features.
 
